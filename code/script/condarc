@@ -1,0 +1,15 @@
+changeps1: false
+
+channels:
+  - conda-forge
+  - defaults
+
+channel_priority: strict
+
+auto_update_conda: False
+
+pkgs_dirs:
+  - /scratch/rcc/${USER}/anaconda/pkgs
+
+envs_dirs:
+  - /scratch/rcc/${USER}/anaconda/envs
