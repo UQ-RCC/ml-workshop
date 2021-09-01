@@ -12,4 +12,4 @@ pkgs_dirs:
   - /scratch/rcc/${USER}/anaconda/pkgs
 
 envs_dirs:
-  - /scratch/rcc/${USER}/anaconda/envs
+  - /scratch/monash/${USER}/anaconda/envs
