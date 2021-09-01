@@ -21,8 +21,6 @@ unset CONDA_ENVS_PATH
 eval "$(conda shell.bash hook)"
 conda activate data-science
 
-cd /scratch/rcc/${USER}/project/ml-hpc
-
 mpiexec -np ${SLURM_NTASKS} \
     -bind-to none -map-by slot \
     -genv NCCL_DEBUG WARN \
